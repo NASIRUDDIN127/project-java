@@ -30,3 +30,17 @@ function hotelCost(day) {
 }
 var count = hotelCost(32);
 console.log(count);
+
+
+//project four
+
+function megaFriend(strs) {
+    let longest = '';
+    for (let i = 0; i < strs.length; i++) {
+    if (strs[i].length > longest.length)
+    longest = strs[i];
+    }
+    return longest;
+    }
+    var result = megaFriend(['kalam', 'naz', 'hero', 'shahin']);
+    console.log(result);
